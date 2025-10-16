@@ -61,3 +61,16 @@ fun TataletakBox(modifier: Modifier) {
 
     }
 }
+
+@Composable
+fun TataletakColumRow(modifier: Modifier) {
+    Column() {
+        Row(modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly) {
+            Text(text = "Komponen1Baris2")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris2")
+
+        }
+    }
+}
